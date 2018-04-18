@@ -38,6 +38,7 @@ public class BubbleSortAlgorithm {
 					arr[j] = arr[j + 1];
 					arr[j + 1] = temp;
 				}
+				
 				//打印结果：
 System.out.println("第" + count + "轮排序结果:");
 				show(arr);

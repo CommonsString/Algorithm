@@ -7,6 +7,7 @@ package com;
  */
 public class Fibonacci {
 	
+	
 	/*
 	public static int fibonacci(int n){
 		//参数检查
