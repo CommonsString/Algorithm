@@ -28,7 +28,7 @@ System.out.print(result == true? "存在!" : "不存在！");
 	
 	/**
 	 * 利用数组下标特性,找出是否存在重复数据
-	 */
+	 */  
 	public static boolean getCopyNum(int[] arr){
 		//参数判断
 		if(arr == null ) return false;
