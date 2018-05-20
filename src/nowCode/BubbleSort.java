@@ -32,7 +32,7 @@ public class BubbleSort {
 	}
 	
 	public static void main(String[] args) {
-		int arr[] = {3, 4, 1, 5, 6};
+		int arr[] = GenerUtils.getRandomArr(5, 10);
 		maoSort(arr);
 		System.out.println(Arrays.toString(arr));
 	}

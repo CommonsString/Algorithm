@@ -11,7 +11,6 @@ public class HashCodeAndEquals {
 	
 	public static void main(String[] args) {
 		
-		HashMap map = new HashMap();
 		
 		
 	}

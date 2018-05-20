@@ -49,6 +49,7 @@ public class MaxLoad {
 		int n;
 		//容量
 		int c;
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		System.out.println("输入抢到的古董数：");
 		n = in.nextInt();

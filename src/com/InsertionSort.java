@@ -1,6 +1,5 @@
 package com;
 
-import java.util.Arrays;
 
 //插入排序之直接插入排序
 public class InsertionSort {

@@ -11,6 +11,7 @@ public class IsCopyNum {
 	
 	public static void main(String[] args) {
 		int n;
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 System.out.println("请输入数组长度： ");
 		n = in.nextInt();
