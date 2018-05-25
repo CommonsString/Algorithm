@@ -1,4 +1,4 @@
-package nowCode;
+package nuiKe;
 
 import java.util.Arrays;
 
@@ -12,7 +12,6 @@ public class InsertScort {
 	public static void insertSort(int arr[]){
 		//参数检查
 		if(arr.length < 2 || arr == null) return ;
-		
 		for(int i = 1; i < arr.length; i++){
 			for(int j = i - 1; j >= 0 && arr[j] > arr[j + 1]; j--){
 				changeIndex(arr, j, j + 1);
